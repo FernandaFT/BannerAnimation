@@ -1,0 +1,200 @@
+a,div,img{
+	position: absolute;
+    display: block;
+}
+#main{
+	width: 300px;
+	height: 600px;
+	border: 1px solid black;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+#firstFrame {
+	background-color: #99b046;
+	width: 300px;
+	height: 600px;
+}
+.balls1 {
+	bottom: 1px;
+	left: 93px;
+	clip: rect(364px,118px,364px,0);
+}
+.text1 {
+	top: 198px;
+	left: 18px;
+	opacity: 0;
+}
+.text2 {
+	top: 342px;
+	left: 21px;
+	opacity: 0;
+}
+#secondFrame {
+    background-color: #2b3f53;
+    width: 300px;
+    height: 600px;
+    transform: scale(0);
+    transform-origin: center center;
+}
+.text3 {
+	top: 245px;
+	left: 11px;
+	opacity: 0;
+}
+.square1 {
+	top: 135px;
+	left: 26px;
+	transform: scale(0);
+}
+.square2 {
+	top: 135px;
+	left: 158px;
+	transform: scale(0);
+}
+.square3 {
+	top: 13px;
+	left: 154px;
+	transform: scale(0);
+}
+.square4 {
+	top: 68px;
+	left: 81px;
+	transform: scale(0);
+}
+.square5 {
+	bottom: 138px;
+	left: 153px;
+	transform: scale(0);
+}
+.square6 {
+	bottom: 39px;
+	left: 21px;
+	transform: scale(0);
+}
+.square7 {
+	bottom: 171px;
+	left: 55px;
+	transform: scale(0);
+}
+.square8 {
+	bottom: 74px;
+	left: 153px;
+	transform: scale(0);
+}
+#thirdFrame {
+	background-color: #005f8b;
+	width: 300px;
+	height: 600px;
+	opacity: 0;
+}
+.orange {
+	top: 224px;
+	left: -1px;
+}
+.computer1{
+	top: 240px;
+	left: 66px;
+}
+.computer2{
+	top: 240px;
+	left: 66px;
+	opacity: 0;
+}
+.computer3{
+	top: 240px;
+	left: 66px;
+	opacity: 0;
+}
+.text4{
+	bottom: 32px;
+	left: 20px;
+	opacity: 0;
+}
+#fourthFrame{
+    width: 300px;
+    height: 600px;
+    opacity: 0;
+}
+.up{
+	width: 300px;
+	height: 50%;
+	background: #fc8334;
+}
+.text5{
+	top: 12px;
+	left: 11px;
+	opacity: 0;
+}
+.down{
+	width: 300px;
+	height: 50%;
+	background: #009dac;
+	bottom: 0;
+}
+.text6{
+	bottom: 10px;
+	left: 7px;
+	opacity: 0;
+}
+.lines{
+	top: 91px;
+	left: -1px;
+	clip: rect(0,300px,268px,300px);
+}
+.object1 {
+	top: 344px;
+	left: 135px;
+	transform: scale(0);
+}
+.object2 {
+	top: 213px;
+	left: 38px;
+	transform: scale(0);
+}
+.object3 {
+	top: 178px;
+	left: 140px;
+	transform: scale(0);
+}
+.object4 {
+	top: 271px;
+	right: 28px;
+	transform: scale(0);
+}
+.object5 {
+	top: 279px;
+	left: 129px;
+	transform: scale(0);
+}
+.object6 {
+	top: 341px;
+	left: 63px;
+	transform: scale(0);
+}
+#lastFrame{
+	background-color: #2b3f53;
+	width: 300px;
+	height: 600px;
+	opacity: 0;
+}
+.balls2{
+	bottom: 1px;
+	left: -1px;
+	clip: rect(375px,74px,375px,0);
+}
+.balls3{
+	right: 1px;
+	top: -1px;
+	clip: rect(0,133px,226px,133px);
+}
+.text7{
+	top: 233px;
+	left: 53px;
+	opacity: 0;
+}
+.cta{
+	bottom: 172px;
+	left: 84px;
+	transform: scale(0);
+}

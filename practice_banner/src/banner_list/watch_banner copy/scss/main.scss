@@ -1,0 +1,195 @@
+$banner-width: 300px;
+$banner-height: 600px;
+@import "../../../styles/main";
+
+// styles begin here
+.step[data-order="1"] {
+  a,
+  div,
+  img {
+    position: absolute;
+    display: block;
+  }
+
+  #firstFrame {
+    background-color: #99b046;
+    width: $banner-width;
+    height: $banner-height;
+    
+    .balls1 {
+      bottom: 1px;
+      left: 93px;
+      clip: rect(364px,118px,364px,0);
+    }
+    .text1 {
+      top: 198px;
+      left: 18px;
+    }
+    .text2 {
+      top: 342px;
+      left: 21px;
+      opacity: 0;
+    }
+  }
+  #secondFrame {
+    background-color: #2b3f53;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    .text3 {
+      top: 245px;
+      left: 11px;
+    }
+    .square1 {
+      top: 135px;
+      left: 26px;
+      transform: scale(0);
+    }
+    .square2 {
+      top: 135px;
+      left: 158px;
+      transform: scale(0);
+    }
+    .square3 {
+      top: 13px;
+      left: 154px;
+      transform: scale(0);
+    }
+    .square4 {
+      top: 68px;
+      left: 81px;
+      transform: scale(0);
+    }
+    .square5 {
+      bottom: 138px;
+      left: 153px;
+      transform: scale(0);
+    }
+    .square6 {
+      bottom: 39px;
+      left: 21px;
+      transform: scale(0);
+    }
+    .square7 {
+      bottom: 171px;
+      left: 55px;
+      transform: scale(0);
+    }
+    .square8 {
+      bottom: 74px;
+      left: 153px;
+      transform: scale(0);
+    }
+  }
+  #thirdFrame {
+    background-color: #005f8b;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    .orange {
+      top: 224px;
+      left: -1px;
+    }
+    .computer1{
+      top: 240px;
+      left: 66px;
+      opacity: 0;
+    }
+    .computer2{
+      top: 240px;
+      left: 66px;
+      opacity: 0;
+    }
+    .computer3{
+      top: 240px;
+      left: 66px;
+      opacity: 0;
+    }
+    .text4{
+      bottom: 32px;
+      left: 20px;
+    }
+  }
+  #fourthFrame{
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    .up{
+      width: $banner-width;
+      height: 50%;
+      background: #fc8334;
+      .text5{
+        top: 12px;
+        left: 11px;
+      }
+    }
+    .down{
+      width: $banner-width;
+      height: 50%;
+      background: #009dac;
+      bottom: 0;
+      .text6{
+        bottom: 10px;
+        left: 7px;
+      }
+    }
+    .lines{
+      top: 91px;
+      left: -1px;
+    }
+    .object1 {
+      top: 344px;
+      left: 135px;
+    }
+    .object2 {
+      top: 213px;
+      left: 38px;
+    }
+    .object3 {
+      top: 178px;
+      left: 140px;
+    }
+    .object4 {
+      top: 271px;
+      right: 28px;
+    }
+    .object5 {
+      top: 279px;
+      left: 129px;
+    }
+    .object6 {
+      top: 341px;
+      left: 63px;
+    }
+  }
+  #lastFrame{
+    background-color: #2b3f53;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    .balls2{
+      bottom: 1px;
+      left: -1px;
+      clip: rect(375px,74px,375px,0);
+    }
+    .balls3{
+      right: 1px;
+      top: -1px;
+      clip: rect(0,133px,226px,133px);
+    }
+    .text7{
+      top: 233px;
+      left: 53px;
+      transform: scale(0);
+    }
+    .cta{
+      bottom: 172px;
+      left: 84px;
+      transform: scale(0);
+    }
+  }
+}

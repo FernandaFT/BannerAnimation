@@ -1,0 +1,135 @@
+$banner-width: 300px;
+$banner-height: 250px;
+@import "../../../styles/main";
+
+// styles begin here
+.step[data-order="1"] {
+  a,
+  div,
+  img {
+    position: absolute;
+    display: block;
+  }
+  #firstFrame{
+    background-color: #00c745;
+    width: $banner-width;
+    height: $banner-height;
+
+    #logo{
+      width: 83px;
+      height: 124px;
+      top: 62px;
+      left: 108px;
+    }
+  }
+
+  #secondFrame{
+    width: $banner-width;
+    height: $banner-height;
+    background-color: #ecfff3;
+    opacity: 0;
+
+    #girlSitting{
+      top: 11px;
+      left: 27px;
+    }
+    #firstText{
+      width: 300px;
+      height: 65px;
+      background-color: #00c745;
+      bottom: 0;
+
+      #text1{
+        width: 210px;
+        top: 6px;
+        left: 50px;
+      }
+    }
+    #fullDesk{
+      top: 29px;
+      left: -77px;
+    }
+    #flyGirl1{
+      top: 200px;
+      left: -368px;
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+
+  #thirdFrame{
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #blockMonitor{
+      width: 54px;
+      height: 134px;
+      background: #ffe97c;
+    }
+    #monitor{
+      top: 23px;
+      left: 9px;
+    }
+    #flyGirl2{
+      top: -11px;
+      left: -400px;
+      transform: scale(0);
+    }
+  }
+
+  #fourthFrame{
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+    
+    #secondText{
+      width: 300px;
+      height: 65px;
+      background-color: #00c745;
+      bottom: 0;
+      opacity: 0;
+
+      #text2{
+        width: 210px;
+        top:  6px;
+        left: 50px;
+      }
+    }
+  }
+
+  #fiveFrame{
+    width: $banner-width;
+    height: $banner-height;
+    background-color: #00c745;
+    opacity: 0;
+
+    #text3{
+      width: 210px;
+      top: 35px;
+      left: 15px;
+      opacity: 0;
+    }
+
+    #text4{
+      width: 250px;
+      top: 113px;
+      left: 15px;
+      opacity: 0;
+    }
+
+    #logo2{
+      width: 115px;
+      bottom: 15px;
+      left: 15px;
+      opacity: 0;
+    }
+
+    #cta{
+      width: 90px;
+      bottom: 15px;
+      right: 15px;
+      transform: scale(0);
+    }
+  }
+}
